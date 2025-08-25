@@ -46085,37 +46085,50 @@ a.u-link.u-text-hover-color-var:hover {
 
 
 /*end-variables sitestylecss*/
- .u-header {
-  background-image: none;
-}
-
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 85px;
 }
 
 .u-header .u-menu-1 {
-  margin: 22px 0 22px auto;
+  margin: 1px 0 0 auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
+}
+
+.u-header .u-image-1 {
+  width: 346px;
+  height: 84px;
+  margin: -58px auto -21px 147px;
+}
+
+.u-header .u-logo-image-1 {
+  width: 100%;
+  height: 100%;
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
   }
 
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+  .u-header .u-image-1 {
+    margin-top: -58px;
+    margin-left: 147px;
   }
 }
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    margin-left: 93px;
+  }
+}
  .u-footer {
   background-image: none;
 }
