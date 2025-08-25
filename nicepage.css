@@ -46090,7 +46090,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 1px 0 0 auto;
+  margin: 23px 0 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -46105,7 +46105,7 @@ a.u-link.u-text-hover-color-var:hover {
 .u-header .u-image-1 {
   width: 346px;
   height: 84px;
-  margin: -58px auto -21px 147px;
+  margin: -58px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -46119,14 +46119,18 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-header .u-image-1 {
     margin-top: -58px;
-    margin-left: 147px;
   }
 }
 
 
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 84px;
+  }
+
   .u-header .u-image-1 {
-    margin-left: 93px;
+    width: 340px;
+    height: 83px;
   }
 }
  .u-footer {
